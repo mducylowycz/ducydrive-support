@@ -345,6 +345,34 @@ p, li { max-width: 72ch; }
 .video-grid { grid-template-columns: repeat(2, 1fr); }
 video { display: block; width: min(100%, 360px); max-height: 680px; margin: 18px auto 0; border: 1px solid var(--border); border-radius: 14px; background: #000; }
 
+.demo-layout {
+  display: grid;
+  grid-template-columns: minmax(280px, 0.82fr) minmax(320px, 1.18fr);
+  gap: clamp(26px, 5vw, 64px);
+  align-items: center;
+  margin-top: 28px;
+}
+
+.demo-stage {
+  padding: 18px;
+  border: 1px solid var(--border);
+  border-radius: 24px;
+  background: linear-gradient(145deg, rgba(22, 114, 154, 0.2), rgba(5, 20, 43, 0.82));
+  box-shadow: 0 28px 70px rgba(0, 0, 0, 0.26);
+}
+
+.demo-stage video {
+  width: min(100%, 390px);
+  max-height: 694px;
+  margin: 0 auto;
+  border-radius: 16px;
+}
+
+.demo-details h3 { margin-top: 6px; font-size: clamp(1.55rem, 3vw, 2.2rem); }
+.demo-points { display: grid; gap: 15px; margin: 24px 0 28px; padding: 0; list-style: none; }
+.demo-points li { padding: 15px 17px; border-left: 3px solid var(--accent); border-radius: 0 12px 12px 0; background: rgba(7, 30, 60, 0.62); color: var(--muted); }
+.demo-points strong { color: var(--text); }
+
 footer {
   display: flex;
   justify-content: space-between;
@@ -364,6 +392,7 @@ footer p { margin: 0; text-align: right; }
   .hero-art { min-height: 260px; border-top: 1px solid var(--border); border-left: 0; }
   .intro-grid, .story { grid-template-columns: 1fr; }
   .section-heading-row { grid-template-columns: 1fr; }
+  .demo-layout { grid-template-columns: 1fr; }
   .feature-card-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .card-grid { grid-template-columns: repeat(2, 1fr); }
 }
