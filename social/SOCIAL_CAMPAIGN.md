@@ -50,6 +50,8 @@ This is destructive storage software, so the app shows the selected device and r
 
 The release is currently in Google Play closed testing. I would especially value feedback about whether the instructions and safety language make sense to people who do not normally work with disk images or filesystems.
 
+Closed-testing opt-in: https://play.google.com/apps/testing/com.michaelducylowycz.duchydriveaiousbtools
+
 What's new: https://mducylowycz.github.io/ducydrive-support/changelog.html
 
 ## TikTok description
@@ -68,4 +70,3 @@ See the release notes and safety details: https://mducylowycz.github.io/ducydriv
 4. Choose checksum and read-back verification
 5. Back up first — these actions erase data
 6. DucyDrive 2.0.1 · Closed testing
-
