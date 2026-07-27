@@ -1,0 +1,24 @@
+1
+00:00:00,300 --> 00:00:02,700
+USB work from your Android phone
+
+2
+00:00:02,700 --> 00:00:05,100
+Inspect the connected drive first
+
+3
+00:00:05,100 --> 00:00:07,500
+Format or write a supported image
+
+4
+00:00:07,500 --> 00:00:10,200
+Choose checksum and read-back verification
+
+5
+00:00:10,200 --> 00:00:12,900
+Back up first — these actions erase data
+
+6
+00:00:12,900 --> 00:00:15,000
+DucyDrive 2.0.1 · Closed testing
+
