@@ -3,54 +3,55 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Foreground service verification videos for DucyDrive AIO USB Tools.">
-  <title>DucyDrive AIO USB Tools — Foreground Service Verification</title>
+  <meta name="theme-color" content="#07162e">
+  <meta name="description" content="Foreground service verification for DucyDrive AIO USB Tools.">
+  <title>Platform Verification — DucyDrive AIO USB Tools</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="shell">
-    <header>
-      <p class="brand">DucyDrive AIO USB Tools</p>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="site-shell">
+    <header class="site-header">
+      <a class="wordmark" href="index.html" aria-label="MJD Solutions home">
+        <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
+        <span><strong>MJD Solutions</strong><small>Clear systems. Practical technology.</small></span>
+      </a>
       <nav aria-label="Primary navigation">
-        <a href="index.html">Home</a>
-        <a href="privacy.html">Privacy policy</a>
-        <a href="support.html">Support</a>
+        <a href="index.html">Overview</a><a href="privacy.html">Privacy</a>
+        <a href="terms.html">Terms</a><a href="support.html">Support</a>
+        <a aria-current="page" href="foreground-service-verification.html">Verification</a>
       </nav>
     </header>
-    <main>
-      <h1>Foreground service verification</h1>
-      <p class="lede">
-        These short Android-device recordings demonstrate the user-visible
-        features associated with the app's connected-device and data-sync
-        foreground services.
-      </p>
-      <div class="video-grid">
-        <section class="video-card">
-          <h2>Connected USB device</h2>
-          <p>
-            A user-selected USB mass-storage device remains connected while
-            DucyDrive performs a read-only performance benchmark and reports
-            the measured result.
-          </p>
-          <video controls preload="metadata" playsinline>
-            <source src="verification-assets/ducydrive-connected-device-fgs.mp4" type="video/mp4">
-            Your browser does not support MP4 video.
-          </video>
-        </section>
-        <section class="video-card">
-          <h2>Local backup and export</h2>
-          <p>
-            The user chooses an Android document destination, starts a raw USB
-            backup, sees live byte progress, and retains a visible Stop control.
-          </p>
-          <video controls preload="metadata" playsinline>
-            <source src="verification-assets/ducydrive-data-sync-fgs.mp4" type="video/mp4">
-            Your browser does not support MP4 video.
-          </video>
+    <main id="main">
+      <section class="page-hero">
+        <p class="eyebrow">Google Play · Foreground services</p>
+        <h1>Visible, user-controlled USB operations.</h1>
+        <p class="lede">These Android-device recordings demonstrate the features associated with connected-device and data-transfer foreground services.</p>
+      </section>
+      <div class="content-panel">
+        <section class="content-section">
+          <div class="video-grid">
+            <article class="video-card">
+              <h2>Connected USB device</h2>
+              <p>A user-selected USB mass-storage device remains connected while DucyDrive performs a read-only performance benchmark and reports the result.</p>
+              <video controls preload="metadata" playsinline>
+                <source src="verification-assets/ducydrive-connected-device-fgs.mp4" type="video/mp4">
+                Your browser does not support MP4 video.
+              </video>
+            </article>
+            <article class="video-card">
+              <h2>Local backup and export</h2>
+              <p>The user chooses an Android document destination, starts a raw USB backup, sees live byte progress, and retains a visible Stop control.</p>
+              <video controls preload="metadata" playsinline>
+                <source src="verification-assets/ducydrive-data-sync-fgs.mp4" type="video/mp4">
+                Your browser does not support MP4 video.
+              </video>
+            </article>
+          </div>
         </section>
       </div>
     </main>
-    <footer>© 2026 Michael Ducylowycz. All rights reserved.</footer>
+    <footer><div><strong>MJD Solutions</strong><span>Independent software and workflow solutions</span></div><p>© 2026 Michael Ducylowycz. All rights reserved.</p></footer>
   </div>
 </body>
 </html>
