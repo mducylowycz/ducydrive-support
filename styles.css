@@ -94,6 +94,25 @@ a { color: inherit; }
 .wordmark strong { font-size: 1.08rem; letter-spacing: 0.015em; }
 .wordmark small { color: var(--muted); font-size: 0.7rem; letter-spacing: 0.02em; }
 
+.header-accent {
+  display: grid;
+  flex: 0 0 auto;
+  grid-template-columns: repeat(2, 9px);
+  gap: 5px;
+  margin-left: 2px;
+}
+
+.header-accent i {
+  width: 9px;
+  height: 9px;
+  border: 2px solid var(--blue);
+  border-radius: 50%;
+  box-shadow: 0 0 16px rgba(57, 173, 255, 0.32);
+}
+
+.header-accent i:nth-child(2),
+.header-accent i:nth-child(3) { border-color: var(--gold); }
+
 nav { display: flex; flex-wrap: wrap; gap: 6px; }
 nav a {
   padding: 8px 11px;
@@ -272,7 +291,8 @@ footer strong { color: var(--ink); }
 footer p { margin: 0; text-align: right; }
 
 @media (max-width: 900px) {
-  .site-header { align-items: flex-start; flex-direction: column; }
+  .site-header { align-items: flex-start; flex-direction: column; position: relative; }
+  .header-accent { position: absolute; top: 18px; right: 18px; }
   .hero { grid-template-columns: 1fr; }
   .hero-art { min-height: 260px; border-top: 1px solid var(--border); border-left: 0; }
   .intro-grid, .story { grid-template-columns: 1fr; }
