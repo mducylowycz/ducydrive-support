@@ -18,6 +18,7 @@
       </a>
       <nav aria-label="Primary navigation">
         <a aria-current="page" href="index.html">Overview</a>
+        <a href="changelog.html">What's New</a>
         <a href="privacy.html">Privacy</a>
         <a href="terms.html">Terms</a>
         <a href="support.html">Support</a>
@@ -53,14 +54,14 @@
           </p>
         </div>
         <div class="metric-panel" aria-label="Product facts">
-          <div><strong>v2.0.0 Release</strong><span>Major Engine Update</span></div>
+          <div><strong>v2.0.1 Release</strong><span>Verified imaging update</span></div>
           <div><strong>Local-first</strong><span>USB contents remain on-device</span></div>
           <div><strong>100% Owner-Created</strong><span>Created by Michael Ducylowycz</span></div>
         </div>
       </section>
 
       <section class="section" aria-labelledby="v2-features-title">
-        <p class="eyebrow">Release 2.0.0 Features</p>
+        <p class="eyebrow">Release 2.0.1 Features</p>
         <h2 id="v2-features-title">Verified raw USB imaging</h2>
         <div class="summary-grid" style="grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1.25rem;">
           <article>
@@ -76,8 +77,8 @@
             <p>Clears obsolete metadata outside smaller images and relocates a valid secondary GPT to the physical target boundary.</p>
           </article>
           <article>
-            <h3>Boot structure reporting</h3>
-            <p>Reports detected ISO 9660, El Torito, MBR, GPT, and EFI metadata without guaranteeing compatibility with every computer.</p>
+            <h3>Gzip streaming</h3>
+            <p>Decompresses gzip raw images directly into aligned USB writes without requiring a second uncompressed phone-storage file.</p>
           </article>
         </div>
       </section>
@@ -109,6 +110,12 @@
             <h3>Platform verification</h3>
             <p>User-visible demonstrations of connected-device and data-transfer operations.</p>
             <span class="text-link">View demonstrations →</span>
+          </a>
+          <a class="resource-card" href="changelog.html">
+            <span class="card-icon" aria-hidden="true">05</span>
+            <h3>What's new</h3>
+            <p>A concise, versioned history of completed features shipped to users.</p>
+            <span class="text-link">View release history →</span>
           </a>
         </div>
       </section>
