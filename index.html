@@ -53,9 +53,32 @@
           </p>
         </div>
         <div class="metric-panel" aria-label="Product facts">
-          <div><strong>3+ years</strong><span>Research and product planning</span></div>
+          <div><strong>v2.0.0 Release</strong><span>Major Engine Update</span></div>
           <div><strong>Local-first</strong><span>USB contents remain on-device</span></div>
           <div><strong>100% Owner-Created</strong><span>Created by Michael Ducylowycz</span></div>
+        </div>
+      </section>
+
+      <section class="section" aria-labelledby="v2-features-title">
+        <p class="eyebrow">Release 2.0.0 Features</p>
+        <h2 id="v2-features-title">Proprietary USB Boot & Imaging Engine</h2>
+        <div class="summary-grid" style="grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1.25rem;">
+          <article>
+            <h3>DirectFlash™ GPT Realignment</h3>
+            <p>Calculates physical USB drive boundaries and realigns Primary/Secondary GPT headers to eliminate "bad drive / needs formatting" errors.</p>
+          </article>
+          <article>
+            <h3>BootCraft™ Custom Setup</h3>
+            <p>Automated setup patcher (autounattend.xml) for Windows installation, bypassing TPM 2.0, RAM, Secure Boot, and Online Account setup.</p>
+          </article>
+          <article>
+            <h3>UEFI:NTFS &gt;4GB Media</h3>
+            <p>Constructs dual-partition (512KB FAT loader + primary NTFS payload) boot media for installer ISOs containing files larger than 4 GB.</p>
+          </article>
+          <article>
+            <h3>MultiVault™ Multi-ISO Suite</h3>
+            <p>Dual-partition architecture (DucyStorage + DucyLoader) for hot-swappable multi-ISO bootable storage.</p>
+          </article>
         </div>
       </section>
 
