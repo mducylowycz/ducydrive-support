@@ -61,23 +61,23 @@
 
       <section class="section" aria-labelledby="v2-features-title">
         <p class="eyebrow">Release 2.0.0 Features</p>
-        <h2 id="v2-features-title">Proprietary USB Boot & Imaging Engine</h2>
+        <h2 id="v2-features-title">Verified raw USB imaging</h2>
         <div class="summary-grid" style="grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1.25rem;">
           <article>
-            <h3>DirectFlash™ GPT Realignment</h3>
-            <p>Calculates physical USB drive boundaries and realigns Primary/Secondary GPT headers to eliminate "bad drive / needs formatting" errors.</p>
+            <h3>Byte-for-byte restoration</h3>
+            <p>Writes raw IMG, ISO, and DMG content without replacing the source filesystem or boot records.</p>
           </article>
           <article>
-            <h3>BootCraft™ Custom Setup</h3>
-            <p>Automated setup patcher (autounattend.xml) for Windows installation, bypassing TPM 2.0, RAM, Secure Boot, and Online Account setup.</p>
+            <h3>Full read-back verification</h3>
+            <p>Reads the image back from the physical USB device and verifies its SHA-256 digest before reporting success.</p>
           </article>
           <article>
-            <h3>UEFI:NTFS &gt;4GB Media</h3>
-            <p>Constructs dual-partition (512KB FAT loader + primary NTFS payload) boot media for installer ISOs containing files larger than 4 GB.</p>
+            <h3>Metadata safeguards</h3>
+            <p>Clears obsolete metadata outside smaller images and relocates a valid secondary GPT to the physical target boundary.</p>
           </article>
           <article>
-            <h3>MultiVault™ Multi-ISO Suite</h3>
-            <p>Dual-partition architecture (DucyStorage + DucyLoader) for hot-swappable multi-ISO bootable storage.</p>
+            <h3>Boot structure reporting</h3>
+            <p>Reports detected ISO 9660, El Torito, MBR, GPT, and EFI metadata without guaranteeing compatibility with every computer.</p>
           </article>
         </div>
       </section>
