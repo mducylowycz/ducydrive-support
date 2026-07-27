@@ -259,15 +259,15 @@ p, li { max-width: 72ch; }
 .page-hero > * { position: relative; z-index: 1; }
 .page-hero h1 { max-width: 700px; font-size: clamp(2.3rem, 5vw, 4rem); }
 .page-hero .lede { max-width: 700px; }
-.facts { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 26px; }
-.facts div { min-width: 170px; padding: 12px 15px; border: 1px solid var(--border); border-radius: 11px; background: rgba(3, 13, 30, 0.62); }
+.facts { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; max-width: 700px; margin-top: 26px; }
+.facts div { min-width: 0; padding: 12px 15px; border: 1px solid var(--border); border-radius: 11px; background: rgba(3, 13, 30, 0.62); }
 .facts dt { color: var(--muted); font-size: 0.68rem; font-weight: 800; letter-spacing: 0.1em; text-transform: uppercase; }
 .facts dd { margin: 3px 0 0; font-weight: 720; }
 
 .content-panel {
   padding: clamp(28px, 5vw, 58px);
-  width: min(980px, calc(100% - 36px));
-  margin: 18px auto 0;
+  width: 100%;
+  margin: 18px 0 0;
   border-radius: var(--radius);
 }
 .content-section { padding: 0 0 28px; margin: 0 0 28px; border-bottom: 1px solid var(--border); }
@@ -312,6 +312,7 @@ footer p { margin: 0; text-align: right; }
   .content-panel { width: 100%; }
   .hero-copy { padding: 30px 24px; }
   .card-grid, .summary-grid, .video-grid { grid-template-columns: 1fr; }
+  .facts { grid-template-columns: 1fr; max-width: none; }
   .resource-card { min-height: 225px; }
   .metric-panel div { grid-template-columns: 1fr; gap: 3px; }
   footer { flex-direction: column; }
