@@ -1,72 +1,82 @@
-# DucyDrive 2.0.1 social campaign
+# DucyDrive 2.2 social campaign
 
 Official product page: https://mducylowycz.github.io/ducydrive-support/index.html
 
-What's New: https://mducylowycz.github.io/ducydrive-support/changelog.html
+What’s New: https://mducylowycz.github.io/ducydrive-support/changelog.html
+
+Join the Google Play closed test: https://play.google.com/apps/testing/com.michaelducylowycz.duchydriveaiousbtools
 
 Support: https://mducylowycz.github.io/ducydrive-support/support.html
 
+Campaign image: `assets/duchydrive-2-2-release.png`
+
 ## Facebook
 
-Managing a USB drive from your phone should not feel like a job for an expert.
+Your Android phone can be a practical USB toolkit—even when a computer is not nearby.
 
-DucyDrive AIO USB Tools helps compatible Android phones inspect USB storage, format supported filesystems, and write image files directly to a connected drive. The new 2.0.1 release also adds gzip image streaming, optional SHA-256 matching, a read-back verification control, a full User Manual, and a clear What's New page.
+DucyDrive AIO USB Tools guides you through inspecting a connected USB drive, preparing supported filesystems, writing disk images, building compatible Windows installation media, and checking that important structures were written correctly.
 
-Before making changes, DucyDrive shows the selected device and capacity so you can review what will be affected. USB formatting and image writing erase data, so backups still matter.
+What is new in the 2.2 release program?
 
-Learn what changed: https://mducylowycz.github.io/ducydrive-support/changelog.html
+• Automatic inspection for Windows, Linux, rescue, IMG, ISO, raw DMG, and supported compressed images
+• Safer Windows USB preparation, including oversized install.wim handling
+• Source checksums and read-back verification
+• Partition, filesystem, and EFI loader-path checks
+• Clear receipts that say exactly what was—and was not—verified
+• A reorganized Guide and Settings area with a working update shortcut
 
-#AndroidApps #USBTools #DataVerification #DucyDrive
+This is closed-test software. Formatting or writing an image erases the selected USB drive, so always verify the device and preserve a backup first.
+
+Join the closed test: https://play.google.com/apps/testing/com.michaelducylowycz.duchydriveaiousbtools
+
+What’s New: https://mducylowycz.github.io/ducydrive-support/changelog.html
+
+Product and support information: https://mducylowycz.github.io/ducydrive-support/index.html
+
+#DucyDrive #AndroidApps #USBTools #USBOTG #BootableUSB #DiskImaging #WindowsUSB #ClosedTesting #MJDSolutions
 
 ## LinkedIn
 
-DucyDrive 2.0.1 is now submitted to Google Play closed testing.
+DucyDrive 2.2 advances phone-first USB imaging from a simple copy operation toward an evidence-driven boot-media workflow.
 
-The release focuses on making advanced USB work easier to understand on compatible Android devices. Users can inspect connected storage, format supported filesystems, and write supported image files with clearer capacity checks and verification choices.
+For a novice user, the goal is straightforward: connect a compatible USB drive to an Android phone, select an image, review what the app detected, choose the recommended workflow, and receive a precise result instead of a generic “copy complete” message.
 
-Highlights include:
+Current highlights include:
 
-- Direct streaming of gzip-compressed raw images
-- Optional expected SHA-256 matching
-- User-controlled full-device read-back verification
-- Improved capacity checks and stale-metadata safeguards
-- A full in-app User Manual and concise release history
+• Automatic image-family and boot-loader inspection
+• Windows installation media preparation with validated split-WIM handling
+• Streaming support for several compressed-image formats
+• Source hashing and physical read-back verification
+• Partition, filesystem, and EFI loader-path validation
+• Transactional safeguards designed to stop before producing known-broken media
+• An original x64 UEFI:NTFS engineering path in the Direct edition for Secure Boot–off testing
 
-The product remains intentionally honest about its scope: every public feature is tied to shipped behavior, and destructive operations include clear confirmation steps.
+The project deliberately distinguishes structural verification from proof on physical firmware. RC76 does not claim Secure Boot or Legacy BIOS compatibility.
 
-Release details: https://mducylowycz.github.io/ducydrive-support/changelog.html
+Google Play closed-test enrollment: https://play.google.com/apps/testing/com.michaelducylowycz.duchydriveaiousbtools
 
-#AndroidDevelopment #ProductEngineering #DataIntegrity #USB #DucyDrive
+Full release notes: https://mducylowycz.github.io/ducydrive-support/changelog.html
+
+Official product page: https://mducylowycz.github.io/ducydrive-support/index.html
+
+#AndroidDevelopment #ProductEngineering #USB #BootMedia #DataIntegrity #MobileEngineering #ClosedTesting #DucyDrive #MJDSolutions
 
 ## Reddit
 
-Title: I built an Android USB utility for formatting, image writing, and verification — 2.0.1 is in closed testing
+Title: I’m building an Android tool for verified bootable USB creation — DucyDrive 2.2 closed-test update
 
-Hi everyone — I am developing DucyDrive AIO USB Tools for people who need to work with a USB drive from a compatible Android phone without root.
+Hi everyone—I’m developing DucyDrive AIO USB Tools for people who may need to inspect, prepare, or write a USB drive using a compatible Android phone without root.
 
-In plain language, the app can inspect a connected USB device, format supported filesystems, and write supported image files to the drive. Version 2.0.1 adds direct gzip image streaming, optional expected SHA-256 matching, a switch for full read-back verification, stronger capacity checks, and a much more complete User Manual.
+In plain language, the app examines the selected image before changing the USB drive. It can identify common Windows, Linux, rescue, IMG, ISO, raw DMG, and supported compressed-image workflows, then recommend either a raw byte-for-byte write or a constructed boot-media workflow.
 
-This is destructive storage software, so the app shows the selected device and requires confirmation before formatting or writing. Backing up the drive first is still essential.
+The 2.2 work adds Windows split-WIM handling, source checksums, physical read-back verification, partition and filesystem checks, EFI loader-path validation, detailed receipts, and clearer beginner guidance. The Direct engineering edition also has an original x64 UEFI:NTFS path for testing with Secure Boot turned off. I am not claiming Secure Boot or Legacy BIOS support in this build.
 
-The release is currently in Google Play closed testing. I would especially value feedback about whether the instructions and safety language make sense to people who do not normally work with disk images or filesystems.
+This is destructive storage software: formatting or writing an image erases the selected USB drive. The app shows the target and runs compatibility checks, but testers should still use spare media and keep backups.
 
-Closed-testing opt-in: https://play.google.com/apps/testing/com.michaelducylowycz.duchydriveaiousbtools
+I would value feedback on device/controller compatibility, wording that remains confusing to non-experts, and the exact boot result you observe.
 
-What's new: https://mducylowycz.github.io/ducydrive-support/changelog.html
+Join the Google Play closed test: https://play.google.com/apps/testing/com.michaelducylowycz.duchydriveaiousbtools
 
-## TikTok description
+Detailed What’s New page: https://mducylowycz.github.io/ducydrive-support/changelog.html
 
-Your Android phone can do more with a connected USB drive. DucyDrive helps you inspect storage, format supported filesystems, and write supported image files with clear verification choices. Version 2.0.1 is now in closed testing.
-
-See the release notes and safety details: https://mducylowycz.github.io/ducydrive-support/changelog.html
-
-#AndroidTips #USBDrive #TechTools #DataSafety #DucyDrive
-
-## TikTok on-screen sequence
-
-1. USB work from your Android phone
-2. Inspect the connected drive first
-3. Format or write a supported image
-4. Choose checksum and read-back verification
-5. Back up first — these actions erase data
-6. DucyDrive 2.0.1 · Closed testing
+Official product page: https://mducylowycz.github.io/ducydrive-support/index.html

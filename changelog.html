@@ -30,6 +30,26 @@
       </section>
       <div class="content-panel">
         <section class="content-section">
+          <p class="eyebrow">July 30, 2026 · Direct Full Access release candidate</p><h2>Version 2.2.0 RC 76</h2>
+          <ul>
+            <li>Adds an admitted, original x64 UEFI:NTFS driver and same-device chainloader to the Direct Full Access edition.</li>
+            <li>Builds large Windows installation media with a small FAT32 EFI System Partition and a larger NTFS payload partition.</li>
+            <li>Verifies GPT structures, filesystem metadata, EFI paths, packaged binary hashes, provenance, and read-back results.</li>
+            <li>Adds clearer beginner guidance, exact boot-result receipts, image inspection, and safer pre-write rejection.</li>
+            <li>Supports this UEFI:NTFS engineering path with Secure Boot turned off. Secure Boot and Legacy BIOS are not claimed for this build.</li>
+          </ul>
+        </section>
+        <section class="content-section">
+          <p class="eyebrow">July 30, 2026</p><h2>What the 2.2 program adds</h2>
+          <ul>
+            <li>Automatic ISO, IMG, raw DMG, Windows, Linux, rescue, and compressed-image inspection.</li>
+            <li>FAT32 split-WIM Windows media construction and transactional NTFS/ESP media creation.</li>
+            <li>Source hashing, byte read-back, partition, filesystem, and EFI loader-path validation.</li>
+            <li>Streaming gzip, ZIP, XZ, Bzip2, and Zstandard image support without a full temporary decompressed copy.</li>
+            <li>Detailed receipts that distinguish structural checks from QEMU or physical-firmware proof.</li>
+          </ul>
+        </section>
+        <section class="content-section">
           <p class="eyebrow">July 27, 2026</p><h2>Version 2.0.1</h2>
           <ul>
             <li>Streams gzip-compressed raw images directly to USB.</li>
