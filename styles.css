@@ -441,8 +441,38 @@ footer p { margin: 0; text-align: right; }
   font-size: 0.9rem;
 }
 
+.release-current {
+  padding: clamp(24px, 4vw, 38px);
+  border: 1px solid var(--border-strong);
+  border-radius: 18px;
+  background: linear-gradient(145deg, rgba(16, 40, 77, 0.92), rgba(5, 20, 43, 0.92));
+}
+
+.release-status-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+  margin-top: 24px;
+}
+
+.release-status-grid div {
+  padding: 16px;
+  border: 1px solid var(--border);
+  border-radius: 13px;
+  background: rgba(3, 13, 30, 0.55);
+}
+
+.release-status-grid strong,
+.release-status-grid span { display: block; }
+.release-status-grid strong { color: var(--gold); }
+.release-status-grid span { margin-top: 4px; color: var(--muted); font-size: 0.88rem; }
+
 @media (max-width: 760px) {
   .release-spotlight {
+    grid-template-columns: 1fr;
+  }
+
+  .release-status-grid {
     grid-template-columns: 1fr;
   }
 }
