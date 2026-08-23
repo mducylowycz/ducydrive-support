@@ -1,7 +1,9 @@
 # MJD Solutions — DucyDrive Legal & Support
 
 Official public product, privacy, release, support, press, and platform-verification
-information for DucyDrive AIO USB Tools.
+information for DucyDrive AIO USB Tools. The site describes only the public,
+user-facing Android experience and does not publish unverified boot claims or
+private implementation material.
 
 This repository intentionally contains no application source code, binaries,
 signing material, license authority, customer information, or internal
