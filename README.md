@@ -10,6 +10,7 @@ signing material, license authority, customer information, or internal
 documentation.
 
 The public site describes the Google Play edition accurately: the app is free to
-download, includes a one-time Google Play Premium unlock for completed tools,
-and does not use advertisements, subscriptions, coins, tokens, or recurring
-charges.
+download, includes one verified Smart Format per installation, and offers a
+one-time Google Play Premium unlock for all further formatting and completed
+tools. It does not use advertisements, subscriptions, coins, tokens, or
+recurring charges.
