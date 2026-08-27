@@ -1,3 +1,9 @@
 .DS_Store
 Thumbs.db
 desktop.ini
+
+# Local social-production workspace. These original renders, captions, audio,
+# and drafts are intentionally retained on this computer but are not website
+# assets and must not be deployed through GitHub Pages.
+social/
+assets/duchydrive-2-2-release-social.jpg
