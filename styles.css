@@ -18,6 +18,16 @@
 
 * { box-sizing: border-box; }
 
+.release-screen { display: block; width: min(100%, 300px); justify-self: center; }
+.release-spotlight .release-screen img { width: 100%; height: auto; max-height: none; object-fit: contain; border-radius: 20px; }
+.screenshot-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 210px), 1fr)); gap: 24px; margin-top: 28px; }
+.screenshot-grid figure { margin: 0; max-width: 300px; justify-self: center; }
+.screenshot-grid img { display: block; width: 100%; height: auto; border: 1px solid var(--border-strong); border-radius: 16px; }
+.screenshot-grid figcaption { margin-top: 10px; font-weight: 600; color: var(--muted); }
+.animation-preview { margin-top: 28px; }
+.animation-preview summary { cursor: pointer; padding: 16px 0; font-weight: 600; }
+.animation-preview video { display: block; width: min(100%, 330px); max-height: 75vh; border-radius: 16px; }
+
 html { scroll-behavior: smooth; }
 
 body {
