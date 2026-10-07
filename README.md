@@ -20,7 +20,13 @@ Google controls available payment methods and displays the localized checkout
 price. Use the purchasing Google account to restore access; an unresolved or
 pending purchase is not a reason to pay again.
 
-Version 2.4.1 (181) is being validated and is not announced as released.
-The purchase header, benefits dialog, restore improvements, expanded file copying,
-and formatter/backup upgrades must not be described as live until publication is
-confirmed. See the explicitly marked preparation section in the changelog.
+Version 2.4.2 (182) supersedes the prepared 2.4.1 candidate and is in release
+preparation, not announced as available. It includes the earlier purchase,
+restoration, free file-copy and formatter/backup upgrades, plus a formatting-first
+dashboard, the full searchable toolkit, a polished original duck header, native
+lighting and adaptive layout improvements. See [release notes](changelog.html).
+
+[Current interface screenshots](index.html#screenshots) are original Android
+emulator captures of the 2.4.2 release build, not mockups or proof of a real
+purchase or physical USB test. Historical real-device video is labeled separately.
+The public site must distinguish release preparation, review and actual availability.
