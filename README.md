@@ -25,6 +25,13 @@ adds the in-app searchable file explorer to the cream/gold visual system,
 target-device guidance, and clearer Premium and restore controls introduced in
 2.5.1. See [release notes](changelog.html).
 
+Version 2.5.3 (186) has been submitted to Google Play for review. It puts the
+free visual File Explorer on Home, adds image previews and guided file actions,
+and refreshes the duck icon, feature graphic, and store screenshots. It is not
+customer-facing until Play approves the release. The signed-build [Home and
+Explorer preview screenshots](assets/screenshots-2.5.3-preview/) are original
+Android emulator captures.
+
 [Interface screenshots](index.html#screenshots) are original Android
 emulator captures of the signed 2.5.2 build, not mockups or proof of a real
 purchase or physical USB test. Historical real-device video is labeled separately.
