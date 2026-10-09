@@ -167,7 +167,7 @@ main { margin-top: 18px; }
   min-height: 390px;
   border-left: 1px solid var(--border);
   background:
-    radial-gradient(circle at 50% 48%, rgba(252, 191, 57, 0.25), transparent 46%),
+    radial-gradient(circle at 50% 48%, rgba(255, 197, 82, 0.43) 0%, rgba(221, 145, 30, 0.21) 30%, transparent 62%),
     linear-gradient(90deg, var(--navy-900), transparent 30%),
     repeating-linear-gradient(135deg, transparent 0 34px, rgba(255, 192, 65, 0.055) 35px, transparent 36px 78px),
     linear-gradient(145deg, #291b0c, #120d08);
@@ -352,7 +352,7 @@ p, li { max-width: 72ch; }
   background:
     linear-gradient(90deg, rgba(27, 18, 8, 1) 0%, rgba(27, 18, 8, 0.96) 45%, rgba(27, 18, 8, 0.46) 77%, rgba(27, 18, 8, 0.22) 100%),
     url("assets/ducy-duck-brand-cutout.png") right 8% center / 310px auto no-repeat,
-    radial-gradient(circle at 80% 45%, #584018, #211608 65%);
+    radial-gradient(circle at 80% 45%, #80551C 0%, #503613 31%, #211608 72%);
 }
 .page-hero > * { position: relative; z-index: 1; }
 .page-hero h1 { max-width: 700px; font-size: clamp(2.3rem, 5vw, 4rem); }
