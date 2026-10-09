@@ -33,7 +33,7 @@ Explorer preview screenshots](assets/screenshots-2.5.3-preview/) are original
 Android emulator captures.
 
 [Interface screenshots](index.html#screenshots) are original Android
-emulator captures of the signed 2.5.2 build, not mockups or proof of a real
+emulator captures of the signed 2.5.3 build, not mockups or proof of a real
 purchase or physical USB test. Historical real-device video is labeled separately.
 The public site states actual availability, while distinguishing emulator
 screenshots from a verified customer purchase or physical USB test.
