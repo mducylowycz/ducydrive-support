@@ -1,0 +1,1 @@
+Original Android emulator screenshots from the signed DucyDrive 2.5.2 (185) build. This release is submitted for Google Play review and is not yet confirmed live. These images do not establish a real Google Play purchase or physical USB compatibility.
