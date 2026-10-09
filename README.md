@@ -20,14 +20,14 @@ Google controls available payment methods and displays the localized checkout
 price. Use the purchasing Google account to restore access; an unresolved or
 pending purchase is not a reason to pay again.
 
-Version 2.4.2 (182) supersedes the prepared 2.4.1 candidate and is available
-on Google Play at 100% production rollout. It includes the earlier purchase,
-restoration, free file-copy and formatter/backup upgrades, plus a formatting-first
-dashboard, the full searchable toolkit, a polished original duck header, native
-lighting and adaptive layout improvements. See [release notes](changelog.html).
+Version 2.5.1 (184) is currently available on Google Play. It adds the
+cream/gold visual system, target-device and file-size formatting guidance, and
+clearer Premium and restore controls. Version 2.5.2 (185), with an in-app
+searchable file explorer, has been submitted for Production review and is not
+yet customer-live. See [release notes](changelog.html).
 
-[Current interface screenshots](index.html#screenshots) are original Android
-emulator captures of the 2.4.2 release build, not mockups or proof of a real
+[Interface preview screenshots](index.html#screenshots) are original Android
+emulator captures of the signed 2.5.2 build, not mockups or proof of a real
 purchase or physical USB test. Historical real-device video is labeled separately.
 The public site states actual availability, while distinguishing emulator
 screenshots from a verified customer purchase or physical USB test.
