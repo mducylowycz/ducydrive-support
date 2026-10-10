@@ -1,0 +1,1 @@
+Original 1080 × 1920 Android virtual-handset captures of DucyDrive 2.5.9 (192), submitted for Google Play Production review on October 9, 2026. These show disposable demo files and do not verify a real Google Play purchase or physical USB device.
