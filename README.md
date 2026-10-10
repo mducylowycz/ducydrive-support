@@ -20,20 +20,14 @@ Google controls available payment methods and displays the localized checkout
 price. Use the purchasing Google account to restore access; an unresolved or
 pending purchase is not a reason to pay again.
 
-Version 2.5.2 (185) is available on Google Play at 100% Production rollout. It
-adds the in-app searchable file explorer to the cream/gold visual system,
-target-device guidance, and clearer Premium and restore controls introduced in
-2.5.1. See [release notes](changelog.html).
+Version 2.5.3 (186) is the latest confirmed customer-available Google Play build.
+Version 2.5.9 (192), with an expanded free File Explorer and recoverable removal,
+was submitted for 100% Production rollout on October 9, 2026 and remains subject
+to Google's review. See [release notes](changelog.html) for the precise status.
 
-Version 2.5.3 (186) has been submitted to Google Play for review. It puts the
-free visual File Explorer on Home, adds image previews and guided file actions,
-and refreshes the duck icon, feature graphic, and store screenshots. It is not
-customer-facing until Play approves the release. The signed-build [Home and
-Explorer preview screenshots](assets/screenshots-2.5.3-preview/) are original
-Android emulator captures.
-
-[Interface screenshots](index.html#screenshots) are original Android
-emulator captures of the signed 2.5.3 build, not mockups or proof of a real
-purchase or physical USB test. Historical real-device video is labeled separately.
+[Interface screenshots](index.html#screenshots) include original Android emulator
+captures of the submitted 2.5.9 build alongside labeled historical 2.5.3 views;
+they are not mockups or proof of a real purchase or physical USB test. Historical
+real-device video is labeled separately.
 The public site states actual availability, while distinguishing emulator
 screenshots from a verified customer purchase or physical USB test.
