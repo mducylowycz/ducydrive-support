@@ -20,13 +20,12 @@ Google controls available payment methods and displays the localized checkout
 price. Use the purchasing Google account to restore access; an unresolved or
 pending purchase is not a reason to pay again.
 
-Version 2.5.3 (186) is the latest confirmed customer-available Google Play build.
 Version 2.5.9 (192), with an expanded free File Explorer and recoverable removal,
-was submitted for 100% Production rollout on October 9, 2026 and remains subject
-to Google's review. See [release notes](changelog.html) for the precise status.
+is the latest confirmed customer-available Google Play build. It reached 100%
+Production rollout on October 9, 2026. See [release notes](changelog.html).
 
 [Interface screenshots](index.html#screenshots) include original Android emulator
-captures of the submitted 2.5.9 build alongside labeled historical 2.5.3 views;
+captures of the live 2.5.9 build alongside labeled historical 2.5.3 views;
 they are not mockups or proof of a real purchase or physical USB test. Historical
 real-device video is labeled separately.
 The public site states actual availability, while distinguishing emulator
