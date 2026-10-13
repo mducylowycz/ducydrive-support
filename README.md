@@ -20,14 +20,14 @@ Google controls available payment methods and displays the localized checkout
 price. Use the purchasing Google account to restore access; an unresolved or
 pending purchase is not a reason to pay again.
 
-Version 2.5.10 (193) is the latest confirmed customer-available Google Play build.
-It explains Android's folder-access step and offers an individual-file route for
-Downloads. Version 2.5.11 (194), which opens the app's own File Explorer before
-requesting folder access, has been submitted for review but is not yet live.
+Version 2.5.11 (194) is available to customers. Version 2.6.4 (201), with native
+on-device browsing, is in Google Play review as of October 13, 2026. Version
+2.6.5 (202) is in development with Dashboard, Tools, Files and About, adaptive
+single-line tabs, offline tool guides and sample formatting previews.
 See [release notes](changelog.html).
 
 [Interface screenshots](index.html#screenshots) are original virtual-handset
-captures of submitted version 2.5.11, clearly labeled as a preview; they are
+captures of current version 2.5.11; they are
 not proof of a real purchase or physical USB test. Historical real-device video
 is labeled separately.
 The public site states actual availability, while distinguishing emulator
