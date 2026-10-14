@@ -10,7 +10,7 @@ signing material, license authority, customer information, or internal
 documentation.
 
 The Google Play edition is free to download. Inspection, guidance, previews,
-and compatible FAT12/FAT16 quick formatting of media up to 2 GB are free.
+and compatible FAT12/FAT16 quick formatting of media up to 2 GiB are free.
 Modern formatting and advanced drive operations require a one-time Google
 Play Premium purchase. It does not use advertisements, subscriptions, coins,
 tokens, or recurring charges.
@@ -20,15 +20,14 @@ Google controls available payment methods and displays the localized checkout
 price. Use the purchasing Google account to restore access; an unresolved or
 pending purchase is not a reason to pay again.
 
-Version 2.5.11 (194) is available to customers. Version 2.6.4 (201), with native
-on-device browsing, is in Google Play review as of October 13, 2026. Version
-2.6.5 (202) is in development with Dashboard, Tools, Files and About, adaptive
-single-line tabs, offline tool guides and sample formatting previews.
+Version 2.6.5 · update prepared.
+Preview the prepared 2.6.5 update. Check Google Play for the version available to your device.
+The update has Dashboard, Tools, Files and About, adaptive single-line tabs,
+offline tool guides and simulated setup previews. Availability is never
+inferred from a local build or submission.
 See [release notes](changelog.html).
 
 [Interface screenshots](index.html#screenshots) are original virtual-handset
-captures of current version 2.5.11; they are
-not proof of a real purchase or physical USB test. Historical real-device video
-is labeled separately.
-The public site states actual availability, while distinguishing emulator
-screenshots from a verified customer purchase or physical USB test.
+captures labelled with their actual version. The 2.6.5 preview video includes
+English captions and the actual app interface. Historical recordings are labelled
+separately. Release status reflects the supplied Google Play observation.
