@@ -13,7 +13,7 @@ advanced drive operations require the paid, one-time Premium unlock.**
 | --- | --- |
 | File Explorer: browse, search, preview and copy files where Android permits access | Other supported formatting setups, including FAT32, exFAT and NTFS |
 | USB inspection and GPT analysis | Supported raw-image writing and drive-image backups |
-| Tool guides and simulated setup previews | Drive speed and full-capacity testing, wiping, eligible GPT repair and verified metadata rollback |
+| Tool guides, device-use plans, setup previews, file-space planning and saved setups | Drive speed and full-capacity testing, wiping, eligible GPT repair and verified metadata rollback |
 | Limited legacy formatting: compatible drives up to 2 GiB (2,147,483,648 bytes), FAT12/FAT16, MBR layout, Quick mode and Data use only | Experimental formats retain their compatibility warnings |
 
 The limited free-format allowance is permanent, not a one-use trial. FAT32,
@@ -46,15 +46,13 @@ restore access; do not buy again. See [purchase and restoration help](support.ht
 
 ## Release and interface material
 
-Version 2.6.5 · update prepared. Check Google Play for the version available to
-your device. A local build or submission is not evidence that an update is live.
-The update has Dashboard, Tools, Files and About, adaptive single-line tabs,
-offline tool guides, simulated setup previews and clearer Free/Premium access.
-See [release notes](changelog.html).
+Version 3.0.0 (246) is submitted to Google Play · in review. Build 220 / 2.6.5 remains the published release until approval and distribution. The new workspace has two aligned rows: Dashboard / Free tools / Premium tools; Files / Guide / About. It includes Easy and Expert entry points, searchable guidance, clear access labels and relevant purchase-information links. The approved banners, artwork and palette remain unchanged.
+
+[Complete 33-page illustrated PDF guide](assets/release-3.0.0/DucyDrive-Illustrated-User-Guide-3.0.0.pdf) · [Release notes](changelog.html#release-3-0-0).
 
 [Interface screenshots](index.html#screenshots) are original virtual-handset
-captures labelled with their actual version. The 2.6.5 preview video includes
-English captions and the actual app interface. Earlier recordings are labelled
+captures labelled with their actual version. The historical 2.6.5 interface video includes
+English captions. It does not show the new two-row workspace. Earlier recordings are labelled
 historical. Screenshots and videos can show an earlier prepared build; the
 written access comparison above is the purchase reference.
 
