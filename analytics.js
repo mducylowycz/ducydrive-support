@@ -59,7 +59,7 @@
     try { url = new URL(link.href); } catch (_) { return; }
     if (url.hostname !== 'play.google.com' || url.pathname !== '/store/apps/details' || url.searchParams.get('id') !== 'com.michaelducylowycz.duchydriveaiousbtools') return;
     const ref = new URLSearchParams(url.searchParams.get('referrer') || '');
-    window.gtag('event', 'google_play_click', {
+    window.gtag('event', 'play_store_click', {
       page_path:location.pathname, campaign_source:'ducydrive_support',
       campaign_medium:'owned', campaign_name:ref.get('utm_campaign') || 'website',
       link_placement:ref.get('utm_content') || 'website_link', transport_type:'beacon'
