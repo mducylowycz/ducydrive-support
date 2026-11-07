@@ -13,7 +13,7 @@ advanced drive operations require the paid, one-time Premium unlock.**
 | --- | --- |
 | File Explorer: browse, search, preview and copy files where Android permits access | Other supported formatting setups, including FAT32, exFAT and NTFS |
 | USB inspection and GPT analysis | Supported raw-image writing and drive-image backups |
-| Tool guides, device-use plans, setup previews, file-space planning and saved setups | Drive speed and full-capacity testing, wiping, eligible GPT repair and verified metadata rollback |
+| Free experimental data rescue; tool guides, device-use plans, setup previews, file-space planning and saved setups | Drive speed and full-capacity testing, wiping, eligible GPT repair and verified metadata rollback |
 | Limited legacy formatting: compatible drives up to 2 GiB (2,147,483,648 bytes), FAT12/FAT16, MBR layout, Quick mode and Data use only | Experimental formats retain their compatibility warnings |
 
 The limited free-format allowance is permanent, not a one-use trial. FAT32,
@@ -46,16 +46,14 @@ restore access; do not buy again. See [purchase and restoration help](support.ht
 
 ## Release and interface material
 
-Version 3.0.0 (246) is submitted to Google Play · in review. Build 220 / 2.6.5 remains the published release until approval and distribution. The new workspace has two aligned rows: Dashboard / Free tools / Premium tools; Files / Guide / About. It includes Easy and Expert entry points, searchable guidance, clear access labels and relevant purchase-information links. The approved banners, artwork and palette remain unchanged.
+Version **4.0.0 (276)** was submitted to Google Play for review on November 7, 2026. The current production version is **3.0.0 (246)**. Google Play determines review, distribution and device availability. Version 4.0 requires **Android 10+**.
 
-[Complete 33-page illustrated PDF guide](assets/release-3.0.0/DucyDrive-Illustrated-User-Guide-3.0.0.pdf) · [Release notes](changelog.html#release-3-0-0).
+Easy mode has two stages: choose a purpose, then review and start. Expert mode explains manual filesystem, partition, erase and allocation settings. The separate Free tools and Premium tools tabs and approved banners/artwork/palette/layout are preserved. Free experimental Data rescue is best effort; it is separate from paid metadata rollback.
 
-[Interface screenshots](index.html#screenshots) are original virtual-handset
-captures labelled with their actual version. The historical 2.6.5 interface video includes
-English captions. It does not show the new two-row workspace. Earlier recordings are labelled
-historical. Screenshots and videos can show an earlier prepared build; the
-written access comparison above is the purchase reference.
+Supported format choices include FAT12/16/32, exFAT, NTFS, ext2/3/4, F2FS, XFS, HFS+, UDF 1.02/2.01 and Btrfs. Availability depends on the selected drive, options and receiving device. Boot and recovery success are not universal guarantees.
 
-This public repository contains no app source, binaries, signing material,
-license authority, customer information or private implementation documents.
-The proprietary app source is maintained separately.
+The active U.S. Premium price was **US$1.99 one time** on November 7, 2026. Regional prices and applicable taxes vary; confirm the current Google Play checkout price. No pricing was changed for this announcement. There is no subscription or per-use charge.
+
+The website's current interface gallery uses actual optimized 4.0 build captures. The 3.0 PDF and 2.6.5 video remain labelled historical/reference material; their files have not been rewritten.
+
+This public repository contains product-site files and public screenshots only. Proprietary app source, upload binaries, signing material, private validation logs and customer/account data stay out of this public repository.
